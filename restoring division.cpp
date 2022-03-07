@@ -39,10 +39,10 @@ int main()
 		accumulator=(quotient>>4) & 0x000f; // Update Accumulator
 
 		accumulator = accumulator - divisor; //A=A-M  
-		printf("%d\t",i-1);displayBits(accumulator,5);printf("\t\tA-M \n");
-
-		if(accumulator & (1<<5))   // Check sign bit 5th bit
+		
+		if(accumulator & (1<<4))   // Check sign bit 5th bit
 		{
+			//printf("%d\t",i-1);displayBits(accumulator,5);printf("\t\tA-M \n");
 			quotient = quotient & ~0x01; //Q0=0
 			accumulator = accumulator + divisor; //A=A+M  
 			
