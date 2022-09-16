@@ -15,10 +15,10 @@ void displayBits(unsigned int value, int size)
 
 int main()
 {
-	unsigned int multiplicand = -5;
-	unsigned int multiplier =-10;
-	unsigned int accumulator=0;
-	unsigned int product=0;
+	int multiplicand = -5;
+	int multiplier =-10;
+	int accumulator=0;
+	int product=0;
 	unsigned int Qnm=0;
 	unsigned int Qn=0;
 	int i;
