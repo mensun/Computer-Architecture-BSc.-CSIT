@@ -1,0 +1,7 @@
+v 4
+file . "andgate.vhd" "807f47d066158e08aedb33bb5886e4f6e5197d5a" "20230815020801.782":
+  entity andgate at 1( 0) + 0 on 25;
+  architecture behav of andgate at 10( 131) + 0 on 26;
+file . "tb_andgate.vhd" "41e7486712ee319c260bd9a7e11af05f9d36e8ad" "20230815020806.224":
+  entity tb_andgate at 1( 0) + 0 on 27;
+  architecture behav of tb_andgate at 6( 86) + 0 on 28;
